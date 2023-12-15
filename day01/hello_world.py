@@ -12,3 +12,9 @@ print('Cydeo\nScool')
 print('\tPython Programming')
 print('I love \"Python\"')
 
+name = 'Wooden Spoon'
+age = 10
+married = False
+employeed = True
+print(name,age,married,employeed)
+
