@@ -135,7 +135,7 @@ print(age_group)
 print('-------------------------------------------')
 
 # Ask the user to enter a number
-user_number = int(input("Enter a number (0-9): "))
+user_number = int(input("Enter a number (0-9):\n "))
 
 # Convert the number to words using a ternary operator
 number_in_words = (
