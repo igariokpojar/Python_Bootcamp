@@ -48,8 +48,8 @@ print('---------String Methods----------------')
 
 s = 'python programming language'
 
-s = s.capitalize() # CAPITALIZE the first character
-s = s.title() # capitalize each word in the String
+s = s.capitalize()  # CAPITALIZE the first character
+s = s.title()  # capitalize each word in the String
 print(s)
 
 s = "            Python           "
@@ -58,11 +58,11 @@ print(s)
 
 s = 'JAVA'
 print(s.index('A'))
-print(s.rindex('A')) # works as last_index method in Java
+print(s.rindex('A'))  # works as last_index method in Java
 
 s = 'Java Java'
 
-s = s.replace('Java', 'Python', 1) # replace method returns new String at the End so assign to new Variable
+s = s.replace('Java', 'Python', 1)  # replace method returns new String at the End so assign to new Variable
 print(s)
 
 s = 'C# C# Python'
@@ -70,7 +70,7 @@ s = s.replace(' C#', ' Java')
 print(s)
 
 s = 'Java jAVA java JAVA Python Python'
-count_java = s.lower().count('java') # count method help us to get the frequency of specific word or element
+count_java = s.lower().count('java')  # count method help us to get the frequency of specific word or element
 count_python = s.count('Python')
 print(count_java)
 print(count_python)
@@ -80,14 +80,14 @@ s2 = 'JAVA'
 print(s1.lower() == s2.lower())  # ignore case, compare two Strings
 
 s = 'Java'
-print(s[0].islower()) # check if the first (or any) character from String is lower case
-print(s[0].isupper()) # check if the first (or any)  character from String is upper case
+print(s[0].islower())  # check if the first (or any) character from String is lower case
+print(s[0].isupper())  # check if the first (or any)  character from String is upper case
 
 s = 'a'
-print(s.isalpha()) # check if characters are alphabetically
+print(s.isalpha())  # check if characters are alphabetically
 
 s = '1'
-print(s.isdigit()) # check if characters are numeric
+print(s.isdigit())  # check if characters are numeric
 
 s = 'Cydeo School'
 print(s.istitle())
