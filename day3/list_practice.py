@@ -64,5 +64,53 @@ def remove_word(list_words, name_to_remove):
 
 name_list = ["John", "Ahmed", "Daniel", "Ahmed", "James", "Muhammed"]
 name_to_remove = 'Ahmed'
-filtered_list = remove_word(name_list,name_to_remove)
+filtered_list = remove_word(name_list, name_to_remove)
 print(filtered_list)
+
+"""
+Write a program that can display the palindrome strings from a list of String
+Ex:
+words = ['Java', 'Anna', 'python', 'Cydeo', 'Level']
+
+output:
+Anna
+Level
+"""
+
+print('-----------------------------------------------')
+def is_palindrome(word):
+    return word.lower() == word.lower()[::-1]
+
+
+def display_palindromes(words):
+    palindrome_list = [word for word in words if is_palindrome(word)]
+    for palindrome in palindrome_list:
+        print(palindrome)
+
+
+# Example usage
+words = ['Java', 'Anna', 'python', 'Cydeo', 'Level']
+display_palindromes(words)
+
+"""
+Write a program that can display the common elements of two lists:
+Ex:
+list1 = [1,2,3,4,5]
+list2 = [4,5,6,7,8]
+
+Output:
+4
+5
+"""
+print('---------------------------------------------')
+
+
+def common_elements(list1, list2):
+    elements = set(list1) & set(list2)
+    for e in elements:
+        print(e)
+
+
+list1 = [1, 2, 3, 4, 5]
+list2 = [4, 5, 6, 7, 8]
+common_elements(list1, list2)
