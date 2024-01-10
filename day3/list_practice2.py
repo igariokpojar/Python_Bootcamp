@@ -29,26 +29,31 @@ ex:
 list = {"Anna", "Canada", "Bob", "David", "Lan", "Abida", "Ebrahim", "Farida"}
 output:
 ["Lan", "Ebrahim", "Farida"]
+
 """
 
 
 def remove_strings_with_same_endpoints(input_list):
-    result_list = [w for w in input_list if w[0] != w[-1]]
+    result_list = [word for word in input_list if word[0] != word[-1]]
     return result_list
 
 
-in_list = ["Anna", "Canada", "Bob", "David", "Lan", "Abida", "Ebrahim", "Farida"]
-print(remove_strings_with_same_endpoints(in_list))
+my_list = ["Anna", "Canada", "Bob", "David", "Lan", "Abida", "Ebrahim", "Farida"]
+
+output_list = remove_strings_with_same_endpoints(my_list)
+print(output_list)
+
 
 print('---------------------------------------------')
 
 
 def remove_same_first_last_char(lst):
-    return [word for word in lst if word[0] != word[-1]]
+    return [w for w in lst if w[0] != w[-1]]
 
 
 lst = ["Anna", "Canada", "Bob", "David", "Lan", "Abida", "Ebrahim", "Farida"]
-print(remove_same_first_last_char(lst))
+out = remove_same_first_last_char(lst)
+print(out)
 
 print('--------------------------------------------')
 
