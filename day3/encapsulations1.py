@@ -30,7 +30,7 @@ class Person:
             raise RuntimeError(f'Inavlid age {age}')
         self.__age = age
 
-    def __str__(self):
+    def __str__(self):  # __str__ means to string in Java
         return f'{type(self).__name__}{str(self.__dict__).replace("_Person__", "")}'
 
 
