@@ -1,9 +1,9 @@
-class Person:
-    def __init__(self, name: str, age: int):
+class Person:  # On these Classes we crate multilevel Inheritance
+    def __init__(self, name: str, age: int):  # this is the constructor
         self.name = name
         self.age = age
 
-    def __str__(self):
+    def __str__(self):  # toString method to print in the Console
         return f'{type(self).__name__}{self.__dict__}'
 
 
@@ -31,19 +31,19 @@ class Teacher(Employee):
         super().__init__(name, age, job_title, company_name, salary)  # calling parent class' constructor
 
     def work(self):
-        print(f'{self.name} is teaching')
+        print(f'{self.name} is teaching Nursing Program')
 
 
-employee1 = Employee('Hazel', 27, 'QA', 'Apple Inc')
+employee1 = Employee('Alex', 7, 'QA', 'Apple Inc', 150_000)
 
-developer1 = Developer('Daniel', 35, 'Python Developer', 'Google Inc', 100_000)
+developer1 = Developer('Igariok', 40, 'Python Developer', 'Google Inc', 128_000)
 
-teacher = Teacher('Breanna', 45)
+teacher = Teacher('Alla', 45, 'RN', 'Advocate Sherman', 185_000)
 
-print(employee1)
+print(employee1)  # we call ToString
 print(developer1)
 print(teacher)
 
-employee1.work()
+employee1.work()  # here we call the method form this class
 developer1.work()
 teacher.work()
