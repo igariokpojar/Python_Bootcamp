@@ -10,8 +10,8 @@ def display_area(shape: Shape):  # parameter's type is restricted to shape objec
     print(f'the  {shape.name}\' area is {shape.area()} ')
 
 
-display_area( shape1 )
-display_area( shape2)
+display_area(shape1)
+display_area(shape2)
 
 
 person1 = Person('James', 35)
