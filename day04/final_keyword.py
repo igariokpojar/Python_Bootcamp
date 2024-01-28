@@ -5,12 +5,12 @@ pi: final = 3.14  # pi is a constant
 pi = 3.5
 
 
-@final
+@final     # declare final Class
 class Animal:
     pass
 
 
-class Dog(Animal):
+class Dog(Animal):  # Animal is marked as final Class and should not be a subclass
     pass
 
 
