@@ -1,6 +1,6 @@
-from typing import final
+from typing import final  # in order to use Final Keyword we need to import TYPING module and final
 
-pi: final = 3.14
+pi: final = 3.14  # pi is a constant
 
 pi = 3.5
 
