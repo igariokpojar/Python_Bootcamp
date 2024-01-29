@@ -5,7 +5,7 @@ pi: final = 3.14  # pi is a constant
 pi = 3.5
 
 
-@final     # declare final Class
+@final  # declare final Class
 class Animal:
     pass
 
@@ -16,7 +16,7 @@ class Dog(Animal):  # Animal is marked as final Class and should not be a subcla
 
 class Employee:
 
-    @final
+    @final  # final can be used for methods
     def work(self):
         print('Working')
 
@@ -27,16 +27,16 @@ class Driver(Employee):
         print('Driving')
 
 
-class Person:
+class Person:  # ARCHIVED THE CONSTANT
 
     def __init__(self, age: int):
         self.__age = age
 
-    @property
+    @property  # getter
     def person_age(self):
         return self.__age
 
-    @person_age.setter
+    @person_age.setter  # setter
     def person_age(self, value):
         raise RuntimeError(f' age is constant, can not be changed')
 
@@ -49,4 +49,4 @@ print(person1.person_age)
 
 print(person1.person_age)
 
-print(person1.__age)
+print(person1.__age)  # it has attributes but is private
