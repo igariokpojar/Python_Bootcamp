@@ -1,5 +1,5 @@
 from day03.abstraction2 import Shape, Square, Rectangle
-from day03.inheritance import Person
+# from day03.inheritance import Person
 
 shape1: Shape = Square(5)
 
@@ -13,5 +13,4 @@ def display_area(shape: Shape):  # parameter's type is restricted to shape objec
 display_area(shape1)
 display_area(shape2)
 
-
-person1 = Person('James', 35)
+# person1 = Person('James', 35)
