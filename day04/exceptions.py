@@ -34,15 +34,12 @@ except ArithmeticError:
 finally:
     print('Finally block')
 
-print('--------manually throw an exception-----------')
-
-raise LookupError('Invalid entry')
-
 """
  In Java
     throw: used for manually throwing exception
-    throws: for exception handings (in method signature)
+    throws: for exception handing (in method signature)
 """
 
+print('--------manually throw an exception-----------')
 
-
+raise LookupError('Invalid entry')
