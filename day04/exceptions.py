@@ -34,7 +34,7 @@ except ArithmeticError:
 finally:
     print('Finally block')
 
-print('-------------------------------------')
+print('--------manually throw an exception-----------')
 
 raise LookupError('Invalid entry')
 
