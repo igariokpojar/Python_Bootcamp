@@ -38,10 +38,11 @@ print('-------------------------------------')
 
 raise LookupError('Invalid entry')
 
-
-
 """
-Java
+ In Java
     throw: used for manually throwing exception
     throws: for exception handings (in method signature)
 """
+
+
+
