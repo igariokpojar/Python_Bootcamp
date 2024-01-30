@@ -38,6 +38,8 @@ print('-------------------------------------')
 
 raise LookupError('Invalid entry')
 
+
+
 """
 Java
     throw: used for manually throwing exception
