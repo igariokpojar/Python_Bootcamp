@@ -24,7 +24,7 @@ unique_element.update((1, 2, 3, 4, 5, 1, 2, 3, 4, 5))
 
 print(unique_element)
 
-n = unique_element.pop()
+n = unique_element.pop()  # first in last out order
 
 print(unique_element)
 
