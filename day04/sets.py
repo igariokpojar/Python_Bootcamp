@@ -49,7 +49,7 @@ print('----------------------intersection-------------------')
 set1 = {'Java', 'Python', 'C#', 'Cydeo'}
 set2 = {'C++', 'Ruby', 'Swift', 'Java', 'Python'}
 
-set3 = set1.intersection(set2)
+set3 = set1.intersection(set2)  # only Java and Python are present in two sets
 
 print(set3)
 
