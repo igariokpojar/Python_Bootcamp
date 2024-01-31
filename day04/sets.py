@@ -14,7 +14,7 @@ print(unique_element)
 
 # print( unique_element[1:] )
 
-unique_element.remove(10)
+unique_element.remove(10)  # remove elements on Set
 
 print(unique_element)
 
