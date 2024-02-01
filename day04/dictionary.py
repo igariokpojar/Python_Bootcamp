@@ -28,7 +28,7 @@ employee2['full_time'] = True
 
 print(employee2)
 
-employee2.pop('full_time')
+employee2.pop('full_time')  # removing key
 
 print(employee2)
 
