@@ -60,7 +60,7 @@ print(list(employee3.keys()))  # call the keys
 for key in employee3.keys():  # iterate dictionary by the keys and value
     print(f'{key} : {employee3[key]}')
 
-print('---------------------------------------')
+print('-------iterate values by using loop------')
 
 values = list(employee3.values())
 
@@ -69,40 +69,40 @@ print(values)
 for value in employee3.values():  # iterate values by using loop
     print(value)
 
-print('---------------------------------------')
+print('----------iterate dictionary by entry------')
 
 for x in employee3.items():  # items(): returns a collection of tuples, in each tuple there will be two elements
     # print(x)
-    print(f'{x[0]} : {x[1]}')
+    print(f'{x[0]} : {x[1]}')  # ACCESS THE ELEMENTS BY USING INDEX NR
 
-print('---------------------------------------')
+print('----------nested dictionary------------------')
 
 students = {
     'A01': {
-        'name': 'James',
+        'name': 'Alex',
         'gender': 'Male',
         'gpa': 3.5,
         'subjects': ['Math', 'Physics']
     },
 
     'A02': {
-        'name': 'Hazel',
-        'gender': 'Female',
+        'name': 'Igor',
+        'gender': 'Male',
         'gpa': 3.8,
         'subjects': ['Biology', 'Programming']
     },
 
     'A03': {
-        'name': 'Yulia',
+        'name': 'Alla',
         'gender': 'Female',
         'gpa': 4,
-        'subjects': ['Chemistry', 'Programming']
+        'subjects': ['Chemistry', 'Nursing']
     }
 }
 
 print(students)
 
-students['A01']['gpa'] = 2.5
+students['A01']['gpa'] = 2.5  # access the first value in dictionary
 
 print(students)
 
