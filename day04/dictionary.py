@@ -47,7 +47,7 @@ print(employee2 is l)
 print('--------- Iterating Dictionary -----------------')
 
 employee3 = {
-    'name': 'Shay',
+    'name': 'Alex',
     'age': 29,
     'salary': 110_000,
     'full_time': False,
@@ -57,7 +57,7 @@ employee3 = {
 
 print(list(employee3.keys()))  # call the keys
 
-for key in employee3.keys():  # or this way
+for key in employee3.keys():  # iterate dictionary by the keys and value
     print(f'{key} : {employee3[key]}')
 
 print('---------------------------------------')
@@ -66,7 +66,7 @@ values = list(employee3.values())
 
 print(values)
 
-for value in employee3.values():
+for value in employee3.values():  # iterate values by using loop
     print(value)
 
 print('---------------------------------------')
