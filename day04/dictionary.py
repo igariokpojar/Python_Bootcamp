@@ -55,9 +55,9 @@ employee3 = {
     'company': 'Apple Inc'
 }
 
-print(list(employee3.keys()))
+print(list(employee3.keys()))  # call the keys
 
-for key in employee3.keys():
+for key in employee3.keys():  # or this way
     print(f'{key} : {employee3[key]}')
 
 print('---------------------------------------')
