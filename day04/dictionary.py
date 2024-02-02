@@ -34,7 +34,7 @@ print(employee2)
 
 # print( help(dict.popitem) )
 
-employee2.popitem()
+employee2.popitem()  # last pair removing
 
 print(employee2)
 
