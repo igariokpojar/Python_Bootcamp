@@ -116,7 +116,7 @@ students['A03']['subjects'][1] = 'Biology'
 
 print(students['A03'])
 
-print('---------------------------------------------')
+print('--------------------------------------------')
 
 
 for x in students.items():
