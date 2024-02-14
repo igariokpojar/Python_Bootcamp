@@ -77,4 +77,4 @@ print( reduce( lambda x, y: x+y , list1) )
 
 list2 = ['Java', 'Python', 'C#', 'Ruby']
 
-print(  reduce( lambda x, y: f'{x} {y}' , list2 )  )
+print( reduce( lambda x, y: f'{x} {y}' , list2 ) )
